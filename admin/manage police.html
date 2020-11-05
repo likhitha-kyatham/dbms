@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manage police </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+	<link rel="stylesheet" href="manage police.css">
+</head>
+<body>
+
+
+<div class="wrapper">
+	
+ <nav id="sidebar" >
+  
+    <ul class="lisst-unstyled components" style="margin-top:50px;">
+      <li >
+      <a href="admin_profile.html">Admin Profile</a>
+    </li>
+    <li>
+      <a href="dashboard.html">Dashboard</a>
+    </li>
+    
+    <li  >
+      <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Police station</a>
+      <ul class="collapse list-unstyled" id="homeSubmenu">
+        <li>
+          <a href="add_police_station_detail.html">Add Police station</a>
+        </li>
+        <li  c>
+          <a href="manage police station.html">Manage Police station</a>
+        </li>
+
+      </ul>
+    </li>
+    <li class="active">
+      <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Police</a>
+      <ul class="collapse list-unstyled" id="homeSubmenu1">
+        <li>
+          <a href="add_police.html">Add Police </a>
+        </li>
+        <li class="active">
+          <a href="manage police.html">Manage Police</a>
+        </li>
+
+      </ul>
+    </li>
+    
+    <li>
+      <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Crime category</a>
+      <ul class="collapse list-unstyled" id="pageSubmenu1">
+        <li>
+          <a href="add_category.html">Add crime</a>
+        </li>
+        <li>
+          <a href="manage category.html">Manage crime</a>
+        </li>
+        
+
+      </ul>
+    </li>
+    
+     <li>
+      <a href="view criminals.html">View criminals</a>
+    </li>
+     <li >
+      <a href="view fir.html">View FIRs</a>
+    </li>
+      <li >
+      <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Reports</a>
+      <ul class="collapse list-unstyled" id="homeSubmenu2">
+        <li>
+          <a href="criminals between dates.html">B/W dates report of criminals</a>
+        </li>
+        <li>
+          <a href="firs between dates.html">B/W dates reports of FIR</a>
+        </li>
+
+      </ul>
+    </li>
+      <li >
+      <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Search</a>
+      <ul class="collapse list-unstyled" id="homeSubmenu3">
+        <li>
+          <a href="search criminal.html">Search criminals</a>
+        </li>
+        <li>
+          <a href="search fir.html">Search FIR</a>
+        </li>
+
+      </ul>
+    </li>
+    </ul>
+ </nav>
+
+
+<div id="content">
+	<header>
+    <nav class="navbar navbar-expand-lg navbar-light " style="">
+      <button type="button" id="sidebarCollapse" class="btn  btn-info" style="background-color: #e7e7e7; color: black;">
+        <i class="fas fa-align-left" ></i>
+        </button><span style="padding-left:5px;">Police</span>
+    
+      </nav>
+  
+</header>
+<div class="forms">
+    <form class="loginbox"  >
+      <h1>Manage police</h1>
+      <div class="table-box">
+ 	    
+        <div class="table-row table-head" >
+            <div class="table-cell first-cell" >
+                <p>S no.</p>
+            </div>
+            <div class="table-cell">
+                <p>Police ID</p>
+            </div>
+            <div class="table-cell">
+                <p>Name</p>
+            </div> 
+            <div class="table-cell">
+                <p>Mobile number</p>
+            </div>
+            <div class="table-cell ">
+                <p>Email</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>Edit</p>
+            </div>
+        </div>
+
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>1</p>
+            </div>
+            <div class="table-cell">
+                <p>xxx</p>
+            </div>
+            <div class="table-cell">
+                <p>xxx</p>
+            </div>
+            <div class="table-cell">
+                <p>xxx</p>
+            </div>
+            <div class="table-cell">
+                <p>xxx</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="update police.html" target="_blank"><i class="fas fa-pen"></i>  </a>
+                <a href="manage police.html"><i class="fas fa-trash"></i></a>
+            </div>   
+        </div>
+
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>2</p>
+            </div>
+            <div class="table-cell">
+                <p>xxx</p>
+            </div>
+            <div class="table-cell">
+                <p>xxx</p>
+            </div>
+            <div class="table-cell ">
+                <p>xxx</p>
+            </div>
+            <div class="table-cell">
+                <p>xxx</p>
+            </div>
+            <div class="table-cell last-cell">
+                <a href="update police.html" target="_blank"><i class="fas fa-pen"></i> </a>
+                <a href="manage police.html"><i class="fas fa-trash"></i></a>
+            </div>   
+        </div>
+        
+        
+</div>
+      
+        
+      </form>
+
+    
+</div>
+    
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+</script>
+
+
+</body>
+</html>
